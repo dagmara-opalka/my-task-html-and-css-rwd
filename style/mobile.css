@@ -1,0 +1,92 @@
+.header {
+    border: 3px solid green;
+    background: #2C2C2C;
+}
+
+.header ul {
+    display: none; 
+}
+
+.header input:checked + ul {
+    display: block;
+}
+
+.blue {
+    border: 3px solid blue;
+    position: relative;
+}
+
+.logo {
+    width: 50%;
+    right: auto;
+}
+
+.yellow {
+    border: 3px solid yellow;
+    min-height: 50px;
+}
+
+.menu { 
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.article1 {
+    background-image: url('images/banner/banner.png'); 
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-color: #2092F8; /* zostawiam narazie żeby było łatwiej */
+    position: relative;
+    
+}
+
+.text1 {
+    font-family: "Poppins", sans-serif;
+    color: white;
+}
+
+.text2 {
+    font-family: "Poppins", sans-serif;
+    color: white;
+}
+
+.button1 {
+    border: 1px solid #37EBED;
+    background-color: #37EBED;
+    padding: 15px 32px; 
+    text-align: center; 
+    text-decoration: none; 
+    display: inline-block; 
+    font-size: 16px; 
+    margin: 4px 2px; 
+    cursor: pointer; 
+    border-radius: 8px; 
+    transition: background-color 0.3s, border-radius 0.45s;
+    font-family: "Poppins", sans-serif;
+    color: white;
+}
+
+.image1 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    max-width: 80%;
+    max-height: 80%;
+}
+
+
+.section-2 {
+    background-color: white;
+    position: relative;
+}
+
+.text3 {
+    font-family: "Poppins", sans-serif; 
+    color: black;
+    display: flex;
+    justify-content: center; /* Wyśrodkowanie poziome */
+    align-items: center; /* Wyśrodkowanie pionowe */
+}
