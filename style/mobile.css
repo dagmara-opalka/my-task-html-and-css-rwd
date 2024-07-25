@@ -159,3 +159,21 @@
     font-family: "Poppins", sans-serif;
     color: white;
 }
+
+.section4 {
+    position: relative;
+}
+
+.image5 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    max-width: 80%;
+    max-height: 80%;
+}
+
+
+.text7, .text8, .button2 {
+    position: relative;
+}
