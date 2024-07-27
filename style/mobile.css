@@ -1,6 +1,16 @@
+.html, body {
+    margin: 0;
+    padding: 0;
+}
+
+
 .header {
-    border: 3px solid green;
     background: #2C2C2C;
+    position: relative;
+}
+
+.green {
+    border: 3px solid green;  
 }
 
 .header ul {
@@ -33,12 +43,6 @@
 }
 
 .article1 {
-    background-image: url('images/banner/banner.png'); 
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center center;
-    background-color: #2092F8; /* zostawiam narazie żeby było łatwiej */
-    position: relative;
     
 }
 
@@ -59,27 +63,35 @@
     text-align: center; 
     text-decoration: none; 
     display: inline-block; 
-    font-size: 16px; 
-    margin: 4px 2px; 
-    cursor: pointer; 
-    border-radius: 8px; 
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 8px;
     transition: background-color 0.3s, border-radius 0.45s;
     font-family: "Poppins", sans-serif;
     color: white;
 }
 
+.image-section {
+    text-align: center;
+    padding-top: 50px;
+}
+
 .image1 {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
     max-width: 80%;
     max-height: 80%;
 }
 
+.section-1 {
+    background-image: url('../images/banner/banner.png'); 
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    position: relative;
+}
 
 .section-2 {
-    background-color: white;
+    background-color: black;
     position: relative;
 }
 
@@ -93,6 +105,7 @@
 .image2 {
 
     color: black;
+    filter: invert(42%) sepia(93%) saturate(1352%) hue-rotate(87deg) brightness(119%) contrast(119%);
 }
 
 
@@ -165,12 +178,7 @@
 }
 
 .image5 {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    max-width: 80%;
-    max-height: 80%;
+    
 }
 
 
