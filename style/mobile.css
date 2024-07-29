@@ -91,7 +91,7 @@
 }
 
 .section-2 {
-    background-color: black;
+    background-color: white;
     position: relative;
 }
 
@@ -102,13 +102,24 @@
     justify-content: center; /* Wyśrodkowanie poziome */
     align-items: center; /* Wyśrodkowanie pionowe */
 }
-.image2 {
+.image2, .image3, .image4 {
 
-    color: black;
-    filter: invert(42%) sepia(93%) saturate(1352%) hue-rotate(87deg) brightness(119%) contrast(119%);
+    background-color: #128AF7; 
+    border: 2px solid #128AF7;
+    padding: 10px;
+    border-radius: 5px; 
+    /*filter: invert(42%) sepia(93%) saturate(1352%) hue-rotate(87deg) brightness(119%) contrast(119%);*/
 }
 
+.image3 {
+    background-color: #FDA05D;
+    border: 2px solid #FDA05D;
+}
 
+.image4 {
+    background-color: #37EF8D;
+    border: 2px solid #37EF8D;   
+}
 .text4 {
     font-family: "Poppins", sans-serif; 
     color: black;
@@ -132,6 +143,7 @@
 .section-3 {
     background-color: white;
     position: relative;
+    
 }
 
 .text6 {
@@ -184,4 +196,80 @@
 
 .text7, .text8, .button2 {
     position: relative;
+}
+
+.section-6 {
+    background-image: url('../images/banner/testmonial.png'); 
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.section-6 {
+    position: relative;
+    width: 100%;
+    max-width: 600px;
+    padding: 20px;
+    color: white;
+    text-align: center;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.section-6:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url('images/your-image.jpg'); /* Zamień na swoją ścieżkę do obrazu */
+    background-size: cover;
+    background-position: center;
+    filter: brightness(50%); /* Opcjonalne: przyciemnia obrazek */
+}
+
+.section-6::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(18, 138, 247, 0.6); /* Niebieski overlay */
+}
+
+.overlay-content {
+    position: relative;
+    z-index: 1;
+    font-family: "Poppins", sans-serif;
+}
+
+.review {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5em;
+}
+
+.unlock-power-text {
+    font-family: "Poppins", sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5em;
+}
+
+.lorem-ipsum {
+    font-family: "Poppins", sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 0.8em;
 }
