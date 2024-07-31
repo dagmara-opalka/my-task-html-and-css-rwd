@@ -1,0 +1,12 @@
+body{
+    background-color: red;
+}
+
+.footer-nav {
+    display: flex;
+    flex-wrap:wrap;
+}
+
+.applab {
+    width: 50%;
+}
