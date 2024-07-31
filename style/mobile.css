@@ -1,275 +1,334 @@
-.html, body {
-    margin: 0;
-    padding: 0;
+.html,
+body {
+  margin: 0;
+  padding: 0;
 }
 
-
 .header {
-    background: #2C2C2C;
-    position: relative;
+  background: #2c2c2c;
+  position: relative;
 }
 
 .green {
-    border: 3px solid green;  
+  border: 3px solid green;
 }
 
 .header ul {
-    display: none; 
+  display: none;
 }
 
 .header input:checked + ul {
-    display: block;
+  display: block;
 }
 
 .blue {
-    border: 3px solid blue;
-    position: relative;
+  border: 3px solid blue;
+  position: relative;
 }
 
 .logo {
-    width: 50%;
-    right: auto;
+  width: 50%;
+  right: auto;
 }
 
 .yellow {
-    border: 3px solid yellow;
-    min-height: 50px;
+  border: 3px solid yellow;
+  min-height: 50px;
 }
 
-.menu { 
-    position: absolute;
-    top: 0;
-    right: 0;
+.menu {
+  position: absolute;
+  top: 0;
+  right: 0;
 }
 
 .article1 {
-    
 }
 
 .text1 {
-    font-family: "Poppins", sans-serif;
-    color: white;
+  font-family: "Poppins", sans-serif;
+  color: white;
 }
 
 .text2 {
-    font-family: "Poppins", sans-serif;
-    color: white;
+  font-family: "Poppins", sans-serif;
+  color: white;
 }
 
 .button1 {
-    border: 1px solid #37EBED;
-    background-color: #37EBED;
-    padding: 15px 32px; 
-    text-align: center; 
-    text-decoration: none; 
-    display: inline-block; 
-    font-size: 16px;
-    margin: 4px 2px;
-    cursor: pointer;
-    border-radius: 8px;
-    transition: background-color 0.3s, border-radius 0.45s;
-    font-family: "Poppins", sans-serif;
-    color: white;
+  border: 1px solid #37ebed;
+  background-color: #37ebed;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 8px;
+  transition: background-color 0.3s, border-radius 0.45s;
+  font-family: "Poppins", sans-serif;
+  color: white;
 }
 
 .image-section {
-    text-align: center;
-    padding-top: 50px;
+  text-align: center;
+  padding-top: 50px;
 }
 
 .image1 {
-    max-width: 80%;
-    max-height: 80%;
+  max-width: 80%;
+  max-height: 80%;
 }
 
 .section-1 {
-    background-image: url('../images/banner/banner.png'); 
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center center;
-    position: relative;
+  background-image: url("../images/banner/banner.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  position: relative;
 }
 
 .section-2 {
-    background-color: white;
-    position: relative;
+  background-color: white;
+  position: relative;
 }
 
 .text3 {
-    font-family: "Poppins", sans-serif; 
-    color: black;
-    display: flex;
-    justify-content: center; /* Wyśrodkowanie poziome */
-    align-items: center; /* Wyśrodkowanie pionowe */
+  font-family: "Poppins", sans-serif;
+  color: black;
+  display: flex;
+  justify-content: center; /* Wyśrodkowanie poziome */
+  align-items: center; /* Wyśrodkowanie pionowe */
 }
-.image2, .image3, .image4 {
-
-    background-color: #128AF7; 
-    border: 2px solid #128AF7;
-    padding: 10px;
-    border-radius: 5px; 
-    /*filter: invert(42%) sepia(93%) saturate(1352%) hue-rotate(87deg) brightness(119%) contrast(119%);*/
+.image2,
+.image3,
+.image4 {
+  background-color: #128af7;
+  border: 2px solid #128af7;
+  padding: 10px;
+  border-radius: 5px;
+  /*filter: invert(42%) sepia(93%) saturate(1352%) hue-rotate(87deg) brightness(119%) contrast(119%);*/
 }
 
 .image3 {
-    background-color: #FDA05D;
-    border: 2px solid #FDA05D;
+  background-color: #fda05d;
+  border: 2px solid #fda05d;
 }
 
 .image4 {
-    background-color: #37EF8D;
-    border: 2px solid #37EF8D;   
+  background-color: #37ef8d;
+  border: 2px solid #37ef8d;
 }
 .text4 {
-    font-family: "Poppins", sans-serif; 
-    color: black;
-    display: flex;
-    justify-content: center; /* Wyśrodkowanie poziome */
-    align-items: center; /* Wyśrodkowanie pionowe */
-    border: 1px solid black; 
-    
+  font-family: "Poppins", sans-serif;
+  color: black;
+  display: flex;
+  justify-content: center; /* Wyśrodkowanie poziome */
+  align-items: center; /* Wyśrodkowanie pionowe */
+  border: 1px solid black;
 }
 
-
 .text5 {
-    font-family: "Poppins", sans-serif; 
-    color: black;
-    display: flex;
-    justify-content: center; /* Wyśrodkowanie poziome */
-    align-items: center; /* Wyśrodkowanie pionowe */
-    border: 1px solid black; 
+  font-family: "Poppins", sans-serif;
+  color: black;
+  display: flex;
+  justify-content: center; /* Wyśrodkowanie poziome */
+  align-items: center; /* Wyśrodkowanie pionowe */
+  border: 1px solid black;
+}
+
+.secion-3 {
+    text-align: center;
 }
 
 .section-3 {
-    background-color: white;
-    position: relative;
-    
+  background-color: white;
+  position: relative;
 }
 
 .text6 {
-    font-family: "Poppins", sans-serif; 
-    color: black;
-    display: flex;
-    justify-content: center; /* Wyśrodkowanie poziome */
-    align-items: center; /* Wyśrodkowanie pionowe */
-    border: 1px solid black; 
+  font-family: "Poppins", sans-serif;
+  color: black;
+  display: flex;
+  justify-content: center; /* Wyśrodkowanie poziome */
+  align-items: center; /* Wyśrodkowanie pionowe */
+  border: 1px solid black;
 }
 
-
 .text7 {
-    font-family: "Poppins", sans-serif; 
-    font-size: 50px;
-    color: hsl(0, 0%, 35%);
-
+  font-family: "Poppins", sans-serif;
+  font-size: 50px;
+  color: hsl(0, 0%, 35%);
 }
 
 .text8 {
-    font-family: "Poppins", sans-serif; 
-    font-size: 15px;
-    color: hsl(0, 0%, 35%);
+  font-family: "Poppins", sans-serif;
+  font-size: 15px;
+  color: hsl(0, 0%, 35%);
 }
 
 .button2 {
-    border: 1px solid #0181F5;
-    background-color: #0181F5;
-    padding: 15px 32px; 
-    text-align: center; 
-    text-decoration: none; 
-    display: inline-block; 
-    font-size: 16px; 
-    margin: 4px 2px; 
-    cursor: pointer; 
-    border-radius: 8px; 
-    transition: background-color 0.3s, border-radius 0.45s;
-    font-family: "Poppins", sans-serif;
-    color: white;
+  border: 1px solid #0181f5;
+  background-color: #0181f5;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 8px;
+  transition: background-color 0.3s, border-radius 0.45s;
+  font-family: "Poppins", sans-serif;
+  color: white;
 }
 
 .section4 {
-    position: relative;
+  position: relative;
 }
 
 .image5 {
-    
+  max-width: 100%;
 }
 
-
-.text7, .text8, .button2 {
-    position: relative;
-}
-
-.section-6 {
-    background-image: url('../images/banner/testmonial.png'); 
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    width: 100%;
-    height: 100vh;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+.text7,
+.text8,
+.button2 {
+  position: relative;
 }
 
 .section-6 {
-    position: relative;
-    width: 100%;
-    max-width: 600px;
-    padding: 20px;
-    color: white;
-    text-align: center;
-    border-radius: 8px;
-    overflow: hidden;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  background-image: url("../images/banner/testmonial.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.section-6 {
+  position: relative;
+  width: 100%;
+  color: white;
+  text-align: center;
+  overflow: hidden;
 }
 
 .section-6:before {
-    content: "";
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background-image: url('images/your-image.jpg'); /* Zamień na swoją ścieżkę do obrazu */
-    background-size: cover;
-    background-position: center;
-    filter: brightness(50%); /* Opcjonalne: przyciemnia obrazek */
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url("images/your-image.jpg"); /* Zamień na swoją ścieżkę do obrazu */
+  background-size: cover;
+  background-position: center;
+  filter: brightness(50%); /* Opcjonalne: przyciemnia obrazek */
 }
 
 .section-6::after {
-    content: "";
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background: rgba(18, 138, 247, 0.6); /* Niebieski overlay */
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(18, 138, 247, 0.6); /* Niebieski overlay */
 }
 
 .overlay-content {
-    position: relative;
-    z-index: 1;
-    font-family: "Poppins", sans-serif;
+  position: relative;
+  z-index: 1;
+  font-family: "Poppins", sans-serif;
 }
 
 .review {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-size: 1.5em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.5em;
 }
 
 .unlock-power-text {
-    font-family: "Poppins", sans-serif;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-size: 1.5em;
+  font-family: "Poppins", sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.5em;
 }
 
 .lorem-ipsum {
+  font-family: "Poppins", sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 0.8em;
+}
+
+.pricing-header {
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid #E9F4FE;
+    background-color: #E9F4FE;
+}
+
+.pricing-type-name {
     font-family: "Poppins", sans-serif;
+}
+
+.buttonGetNow {
+    font-size: 16px; 
+    color: #a0c4ff; 
+    background-color: transparent;
+    border: 2px solid #a0c4ff; 
+    border-radius: 5px; 
+    padding: 10px 20px;
+    cursor: pointer;
+    text-align: center; 
+    transition: background-color 0.3s, color 0.3s; 
     display: flex;
     justify-content: center;
-    align-items: center;
-    font-size: 0.8em;
+    max-width: 10%;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+}
+
+.pricing-plan, .pricing-plan2, .pricing-plan3 {
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    justify-content: center;
+}
+
+.pricing-header {
+    align-items: flex-start; /* Wyłączenie wyśrodkowania dla pricing-header */
+    width: 100%; /* Rozciągnięcie headera na całą szerokość */
+    text-align: left; /* Wyrównanie tekstu do lewej */
+}
+
+.pricing-header .pricing-type-name {
+    align-self: flex-start; /* Wyłączenie wyśrodkowania dla pricing-type-name */
+    width: auto; 
+    text-align: left; /* Wyrównanie tekstu do lewej */
+}
+
+/*.list-item{
+    line-height: 50px;
+}      czemu to wpływa mi na secion-3? */
+
+.pricing-plan, .pricing-plan2, .pricing-plan3 {
+    background-color: #f0f8ff; /* Ustawienie tła */
+    border: 1px solid #e0e0e0; /* Ustawienie obramowania */
+    border-radius: 10px; /* Zaokrąglone rogi */
+    padding: 20px; /* Padding wewnętrzny */
+    margin: 20px; /* Margines zewnętrzny */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Dodanie cienia */
+    text-align: center; /* Wyśrodkowanie tekstu */
+    max-width: 300px; /* Maksymalna szerokość */
 }
