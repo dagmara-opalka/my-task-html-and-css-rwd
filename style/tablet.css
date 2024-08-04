@@ -1,5 +1,4 @@
 body{
-    background-color: red;
 }
 
 .footer-nav {
@@ -9,4 +8,46 @@ body{
 
 .applab {
     width: 50%;
+}
+
+
+.pricing-plan-parent {
+    display: flex;
+    padding: 0 20px;
+}
+
+.pricing-plan {
+    width: 100%;
+    margin: 0;
+}
+
+.pricing-plan:hover {
+        transform: scale(1.1)
+}
+
+.section-4 {
+    display: flex;
+    padding: 0 20px;
+}
+
+.main-content {
+    width: 50%;
+}
+
+.list {
+    display: flex;
+    justify-content: center;
+}
+
+.list-item {
+    margin: 20px;
+}
+
+.section-1 {
+    display: flex;
+    justify-content: center;
+}
+
+.lorem-ipsum {
+    padding: 50px;
 }
