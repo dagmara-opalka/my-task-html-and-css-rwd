@@ -13,7 +13,6 @@
 }
 
 .productivity {
-    max-width: 1400px;
     margin: 0 auto;
     display: flex;
     justify-content: space-around;
@@ -108,4 +107,8 @@ h2 {
 
 .lorem-ipsum {
     padding: 50px;
+}
+
+.product-items{
+    max-width: 1440px;
 }
